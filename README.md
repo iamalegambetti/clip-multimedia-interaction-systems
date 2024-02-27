@@ -1,5 +1,5 @@
 # Clip Multimedia Interaction Systems
-This work serves as the evaluation project for the subject Multimedia Interaction and Systems for the Academic year 2023/2024. 
+This work serves as the evaluation project for the subject Multimedia Interaction and Systems for the Academic year 2023/2024. It contains the a full replication of the [CLIP paper]() and an applied case study in which multimodal data can be integrated in Information System research. In particular, I show how raw textual reviews and images can be used as input to predict restaurant survivability, price tier and average rating. 
 
 ## Guidelines
 
@@ -17,6 +17,7 @@ To train and evaluate CLIP models:
 
 Learning Curve at Epoch1@Convergence:
 ![Learning Curve](experiments/CLIP/evaluation/learning_curve.png)
+The star represents the average cross-entropy loss on the test set. The lines the training loss at each batch. 
 
 ### Dataset & Embeddings
 Dataset & Saved Embeddings are downloadable [here](https://drive.google.com/drive/folders/1kHT6J1kCezuNgtcCDDi8sjwEHIbR8w_p?usp=drive_link).
