@@ -4,6 +4,7 @@ A Project, presented as the Requirement for the Evaluation of the Subject Multim
 ## Project Structure
 
 └───experiments
-│   │
+
 │   └───paper_replication
+
 │   └───zero_shot_embeddings
