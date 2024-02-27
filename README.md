@@ -21,7 +21,7 @@ The star represents the average cross-entropy loss on the test set. The lines th
 
 ### Dataset & Embeddings
 Dataset & Saved Embeddings are downloadable [here](https://drive.google.com/drive/folders/1kHT6J1kCezuNgtcCDDi8sjwEHIbR8w_p?usp=drive_link).
-Embeddings should be stored in their respective folder.
+Embeddings should be stored in their respective folder. While data should be stored within the project folder in a data/ directory. 
 Images are available for download [here](https://drive.google.com/file/d/1TtZGLRZ3sa1qwqKJ5NviZz7_PUFbr4gf/view?usp=drive_link).
 
 ### Case Study 
