@@ -158,3 +158,14 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Files & Folders to ignore
+experiments/rq2_restaurants/CLIP/fine_tuned_embeddings/weights_ft/*
+experiments/rq2_restaurants/CLIP/fine_tuned_embeddings/fine_tuned_10.pkl
+experiments/rq2_restaurants/CLIP/paper_replication/weights_ft/*
+experiments/rq2_restaurants/CLIP/paper_replication/weights-B16/*
+experiments/rq2_restaurants/CLIP/fine_tuned_embeddings/fine_tuned_10.pkl
+experiments/rq2_restaurants/CLIP/paper_replication/embeddings_10.pkl
+experiments/rq2_restaurants/CLIP/zero_shot_embeddings/restaurant_embeddings_10.pkl
+experiments/rq2_restaurants/CLIP/predictors/*
+experiments/rq2_restaurants/CLIP/paper_replication/data/*
