@@ -103,12 +103,12 @@ def fit(data, target, weighted, pretrained_model, model_type='logistic'):
 
 
 if __name__ == '__main__':
-    embeddings = 'fully_trained' # 'zero_shot', 'fine_tuned', 'fully_trained'
-    sample = 10
+    embeddings = 'fully_trained' # SELECT ONE: 'zero_shot', 'fine_tuned', 'fully_trained'
+    sample = 10 # DONT CHANGE 
     pretrained_model = "CLIP"
-    target = 'is_closed'
-    model_type = 'logistic'
-    weighted = True
+    target = 'is_closed' # SELECT ONE: 'is_closed', 'price', 'rating'
+    model_type = 'logistic' # SELECT: 'logistic' or 'regression'
+    weighted = True # SELECT: True or False. For 'price' it should be False, for 'is_closed' it should be True
     if embeddings == 'zero_shot':
         path = "multi-media-interaction/experiments/CLIP/zero_shot_embeddings/zero_shot_embeddings.pkl" # Zero-shot Embeddings
     elif embeddings == 'fine_tuned':
