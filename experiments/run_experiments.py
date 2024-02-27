@@ -110,11 +110,11 @@ if __name__ == '__main__':
     model_type = 'logistic'
     weighted = True
     if embeddings == 'zero_shot':
-        path = "multi-media-interaction/experiments/CLIP/zero_shot_embeddings/restaurant_embeddings_10.pkl" # Zero-shot Embeddings
+        path = "multi-media-interaction/experiments/CLIP/zero_shot_embeddings/zero_shot_embeddings.pkl" # Zero-shot Embeddings
     elif embeddings == 'fine_tuned':
-        path = "multi-media-interaction/experiments/CLIP/fine_tuned_embeddings/fine_tuned_10.pkl" # Fine-tuned Embeddings 
+        path = "multi-media-interaction/experiments/CLIP/fine_tuned_embeddings/fine_tuned_embeddings.pkl" # Fine-tuned Embeddings 
     elif embeddings == 'fully_trained':
-        path = "multi-media-interaction/experiments/CLIP/paper_replication/embeddings_10.pkl" # Fully trained Embeddings 
+        path = "multi-media-interaction/experiments/CLIP/paper_replication/fully_trained_embeddings.pkl" # Fully trained Embeddings 
     else:
         raise ValueError('Embeddings not supported.')
     data = load_data(path)
