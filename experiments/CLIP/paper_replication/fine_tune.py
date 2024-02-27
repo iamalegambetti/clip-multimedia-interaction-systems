@@ -12,11 +12,11 @@ LR = .00001
 EPOCHS = 10
 save_weights = True
 enable_batch_logs = True
-train_path = "multi-media-interaction/experiments/rq2_restaurants/CLIP/paper_replication/data/train_reviews.csv"
-test_path = "multi-media-interaction/experiments/rq2_restaurants/CLIP/paper_replication/data/test_reviews.csv"
+train_path = "multi-media-interaction/experiments/CLIP/paper_replication/data/train_reviews.csv"
+test_path = "multi-media-interaction/experiments/CLIP/paper_replication/data/test_reviews.csv"
 images_path = "/home/agambetti/data/Yelp/NY/images"
-logs_file = 'multi-media-interaction/experiments/rq2_restaurants/CLIP/paper_replication/logs/logs_ft.txt'
-weights_dir = 'multi-media-interaction/experiments/rq2_restaurants/CLIP/paper_replication/weights_ft'
+logs_file = 'multi-media-interaction/experiments/CLIP/paper_replication/logs/logs_ft.txt'
+weights_dir = 'multi-media-interaction/experiments/CLIP/paper_replication/weights_ft'
 logging.basicConfig(filename=logs_file, level=logging.INFO, filemode='a+')
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print('Optimizing on device:', device)

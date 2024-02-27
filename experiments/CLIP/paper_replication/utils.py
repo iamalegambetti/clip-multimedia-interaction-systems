@@ -89,7 +89,7 @@ def load_nltk_vocabulary():
     return english_words, vocab_size
 
 def load_norvig_vocabulary():
-    with open('/home/agambetti/PhD/multi-media-interaction/experiments/rq2_restaurants/CLIP/paper_replication/data/vocabulary_30k.txt', 'r') as file:
+    with open('/home/agambetti/PhD/multi-media-interaction/experiments/CLIP/paper_replication/data/vocabulary_30k.txt', 'r') as file:
         vocabulary = file.read().splitlines()
         vocabulary = [word.strip() for word in vocabulary]
     vocab_size = len(vocabulary)

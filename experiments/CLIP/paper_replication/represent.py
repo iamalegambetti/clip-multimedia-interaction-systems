@@ -89,14 +89,14 @@ def main(sample=None, target=None):
             continue
     
     # output 
-    with open(f'multi-media-interaction/experiments/rq2_restaurants/CLIP/paper_replication/embeddings_{sample}.pkl', 'wb') as f:
+    with open(f'multi-media-interaction/experiments/CLIP/paper_replication/embeddings_{sample}.pkl', 'wb') as f:
         pickle.dump(outputs, f)
         print('Saved embeddings.')
 
 if __name__ == "__main__":
     # Load the data
     sample = 10
-    path_to_model = f"multi-media-interaction/experiments/rq2_restaurants/CLIP/paper_replication/weights-B16/clip_1.pt"
+    path_to_model = f"multi-media-interaction/experiments/CLIP/paper_replication/weights-B16/clip_1.pt"
     path = f"./multi-media-interaction/data/restaurants/restaurants_{sample}.pkl"
     with open(path, 'rb') as f:
         restaurants = pickle.load(f)

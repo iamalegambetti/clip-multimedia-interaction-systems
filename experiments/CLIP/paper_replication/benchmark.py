@@ -7,7 +7,7 @@ from torchvision import transforms
 import numpy as np 
 
 # CONFIG
-test_path = "multi-media-interaction/experiments/rq2_restaurants/CLIP/paper_replication/data/test_reviews.csv"
+test_path = "multi-media-interaction/experiments/CLIP/paper_replication/data/test_reviews.csv"
 images_path = "/home/agambetti/data/Yelp/NY/images"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch16")

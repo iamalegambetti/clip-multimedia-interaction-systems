@@ -19,11 +19,11 @@ def list_images(restaurant, reviwer):
     return images
 
 if fine_tuned:
-    path_to_model = "/home/agambetti/PhD/multi-media-interaction/experiments/rq2_restaurants/CLIP/fine_tuned_embeddings/weights_ft/clip_1.pt"
+    path_to_model = "/home/agambetti/PhD/multi-media-interaction/experiments/CLIP/fine_tuned_embeddings/weights_ft/clip_1.pt"
     weights = torch.load(path_to_model)
     model.load_state_dict(weights)
 
-df = pd.read_csv("/home/agambetti/PhD/multi-media-interaction/experiments/rq2_restaurants/CLIP/paper_replication/data/test_reviews.csv")
+df = pd.read_csv("/home/agambetti/PhD/multi-media-interaction/experiments/CLIP/paper_replication/data/test_reviews.csv")
 df['images'] = df.apply(lambda x: list_images(x.Restaurant, x.Reviewer), axis=1)
 df['image'] = df.apply(lambda x: random.choice(x.images) if len(x.images) > 0 else None, axis=1)
 df['image_path'] = df.apply(lambda x: os.path.join(images_path, x.Restaurant, x.image) if x.image else None, axis=1)

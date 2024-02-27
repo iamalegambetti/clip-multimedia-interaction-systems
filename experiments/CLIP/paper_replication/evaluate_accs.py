@@ -19,9 +19,9 @@ iamge_transform = transforms.Compose([
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]) 
     ])
 
-df = pd.read_csv("/home/agambetti/PhD/multi-media-interaction/experiments/rq2_restaurants/CLIP/paper_replication/data/test_reviews.csv")
+df = pd.read_csv("/home/agambetti/PhD/multi-media-interaction/experiments/CLIP/paper_replication/data/test_reviews.csv")
 images_path = "/home/agambetti/data/Yelp/NY/images"
-weights_path = "/home/agambetti/PhD/multi-media-interaction/experiments/rq2_restaurants/CLIP/paper_replication/weights-B16/clip_1.pt"
+weights_path = "/home/agambetti/PhD/multi-media-interaction/experiments/CLIP/paper_replication/weights-B16/clip_1.pt"
 
 def list_images(restaurant, reviwer):
     images = os.listdir(os.path.join(images_path, restaurant))
