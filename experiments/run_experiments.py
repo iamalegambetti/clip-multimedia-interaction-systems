@@ -105,7 +105,7 @@ def fit(data, target, weighted, pretrained_model, model_type='logistic'):
 if __name__ == '__main__':
     embeddings = 'fully_trained' # SELECT ONE: 'zero_shot', 'fine_tuned', 'fully_trained'
     sample = 10 # DONT CHANGE 
-    pretrained_model = "CLIP"
+    pretrained_model = "CLIP" # DONT CHANGE
     target = 'is_closed' # SELECT ONE: 'is_closed', 'price', 'rating'
     model_type = 'logistic' # SELECT: 'logistic' or 'regression'
     weighted = True # SELECT: True or False. For 'price' it should be False, for 'is_closed' it should be True

@@ -15,6 +15,9 @@ To train and evaluate CLIP models:
 - Zero-shot CLIP evaluation:
 `experiments/CLIP/paper_replication/zero_shot_benchmark.py`
 
+Learning Curve at Epoch1@Convergence:
+![Learning Curve](./evaluation/learning_curve.png)
+
 ### Dataset & Embeddings
 Dataset & Saved Embeddings are downloadable [here](https://drive.google.com/drive/folders/1kHT6J1kCezuNgtcCDDi8sjwEHIbR8w_p?usp=drive_link).
 Embeddings should be stored in their respective folder.
@@ -25,11 +28,12 @@ The case study can be replicated by configuring and running the file:
 
 `experiments/run_experiments.py`
 
+Change the configuration at your taste: 
 ```python
 if __name__ == '__main__':
     embeddings = 'fully_trained' # SELECT ONE: 'zero_shot', 'fine_tuned', 'fully_trained'
     sample = 10 # DONT CHANGE 
-    pretrained_model = "CLIP"
+    pretrained_model = "CLIP" # DONT CHANGE
     target = 'is_closed' # SELECT ONE: 'is_closed', 'price', 'rating'
     model_type = 'logistic' # SELECT: 'logistic' or 'regression'
     weighted = True # SELECT: True or False. For 'price' it should be False, for 'is_closed' it should be True
