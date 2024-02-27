@@ -1,5 +1,5 @@
 # Clip Multimedia Interaction Systems
-This work serves as the evaluation project for the subject Multimedia Interaction and Systems for the Academic year 2023/2024. It contains the a full replication of the [CLIP paper](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=dOad5HoAAAAJ&citation_for_view=dOad5HoAAAAJ:YsMSGLbcyi4C) and an applied case study in which multimodal data can be integrated in Information System research. In particular, I show how raw textual reviews and images can be used as input to predict restaurant survivability, price tier and average rating. 
+This work serves as the evaluation project for the subject Multimedia Interaction and Systems for the Academic year 2023/2024. It contains the a full replication of the [CLIP paper](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=dOad5HoAAAAJ&citation_for_view=dOad5HoAAAAJ:qxL8FJ1GzNcC) and an applied case study in which multimodal data can be integrated in Information System research. In particular, I show how raw textual reviews and images can be used as input to predict restaurant survivability, price tier and average rating. 
 
 ## Guidelines
 
