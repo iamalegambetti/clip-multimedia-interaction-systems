@@ -1,10 +1,6 @@
 # Clip Multimedia Interaction Systems
-A Project, presented as the Requirement for the Evaluation of the Subject Multimedia Interaction and Systems
+This work serves as the evaluation project for the subject Multimedia Interaction and Systems for the Academic year 2023/2024. 
 
-## Project Structure
-
-└───experiments
-
-│   └───paper_replication
-
-│   └───zero_shot_embeddings
+## Guidelines
+- Optimize CLIP from scratch: 
+`experiments/CLIP/paper_replication/train.py` 
