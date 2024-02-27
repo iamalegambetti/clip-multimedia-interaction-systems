@@ -160,12 +160,12 @@ cython_debug/
 #.idea/
 
 # Files & Folders to ignore
-experiments/rq2_restaurants/CLIP/fine_tuned_embeddings/weights_ft/*
-experiments/rq2_restaurants/CLIP/fine_tuned_embeddings/fine_tuned_10.pkl
-experiments/rq2_restaurants/CLIP/paper_replication/weights_ft/*
-experiments/rq2_restaurants/CLIP/paper_replication/weights-B16/*
-experiments/rq2_restaurants/CLIP/fine_tuned_embeddings/fine_tuned_10.pkl
-experiments/rq2_restaurants/CLIP/paper_replication/embeddings_10.pkl
-experiments/rq2_restaurants/CLIP/zero_shot_embeddings/restaurant_embeddings_10.pkl
-experiments/rq2_restaurants/CLIP/predictors/*
-experiments/rq2_restaurants/CLIP/paper_replication/data/*
+experiments/CLIP/fine_tuned_embeddings/weights_ft/*
+experiments/CLIP/fine_tuned_embeddings/fine_tuned_10.pkl
+experiments/CLIP/paper_replication/weights_ft/*
+experiments/CLIP/paper_replication/weights-B16/*
+experiments/CLIP/fine_tuned_embeddings/fine_tuned_10.pkl
+experiments/CLIP/paper_replication/embeddings_10.pkl
+experiments/CLIP/zero_shot_embeddings/restaurant_embeddings_10.pkl
+experiments/CLIP/predictors/*
+experiments/CLIP/paper_replication/data/*

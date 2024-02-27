@@ -1,2 +1,2 @@
-# clip-multimedia-interaction-systems
+# Clip Multimedia Interaction Systems
 A Project, presented as the Requirement for the Evaluation of the Subject Multimedia Interaction and Systems
