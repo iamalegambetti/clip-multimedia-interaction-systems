@@ -25,7 +25,7 @@ The case study can be replicated by configuring and running the file:
 
 `experiments/run_experiments.py`
 
-```
+```python
 if __name__ == '__main__':
     embeddings = 'fully_trained' # SELECT ONE: 'zero_shot', 'fine_tuned', 'fully_trained'
     sample = 10 # DONT CHANGE 
