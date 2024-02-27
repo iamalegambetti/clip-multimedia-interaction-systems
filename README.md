@@ -16,7 +16,7 @@ To train and evaluate CLIP models:
 `experiments/CLIP/paper_replication/zero_shot_benchmark.py`
 
 Learning Curve at Epoch1@Convergence:
-![Learning Curve](./evaluation/learning_curve.png)
+![Learning Curve](experiments/CLIP/evaluation/learning_curve.png)
 
 ### Dataset & Embeddings
 Dataset & Saved Embeddings are downloadable [here](https://drive.google.com/drive/folders/1kHT6J1kCezuNgtcCDDi8sjwEHIbR8w_p?usp=drive_link).
